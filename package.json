@@ -1,0 +1,22 @@
+{
+  "name": "sys1-theme",
+  "displayName": "sys1-theme",
+  "description": "dark theme inspired by Coding Adventures from Sebastian Lague",
+  "version": "0.0.1",
+  "publisher": "adrianlimws",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "sys1-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sys1-dark-color-theme.json"
+      }
+    ]
+  }
+}
